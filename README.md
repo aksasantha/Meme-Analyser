@@ -24,10 +24,10 @@ Analyses the meme and generates philosophical explanations
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- Python, Streamlit
+- 
+- Pillow (PIL),Hugging Face transformers(CLIPProcessor & CLIPModel)
+- Git, Streamlit, VS Code 
 
 For Hardware:
 - [List main components]
@@ -37,10 +37,17 @@ For Hardware:
 ### Implementation
 For Software:
 # Installation
-[commands]
+# On Windows
+python -m venv meme-analyser-env
+meme-analyser-env\Scripts\activate
+
+# On macOS/Linux
+python3 -m venv meme-analyser-env
+source meme-analyser-env/bin/activate
+
 
 # Run
-[commands]
+streamlit run app.py
 
 ### Project Documentation
 For Software:
@@ -87,9 +94,9 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Aksa Santha Ronio: GitHub, Backend
+- Anagha Antu: AI tools support, Streamlit
+- Dhiya baby: Streamlit
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
